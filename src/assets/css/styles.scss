@@ -1,6 +1,19 @@
 @import 'theme-colors';
-
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&display=swap');
+
+.slide-fade-enter-active {
+    transition: all .4s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .4s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+    transform: translateY(10px);
+    opacity: 0;
+}
 
 body {
     font-family: 'Azeret Mono', monospace;
@@ -55,6 +68,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 .sun__button:hover {
@@ -67,6 +81,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    box-shadow: 4px 20px 28px -4px rgba(255, 146, 0, 0.5);
 }
 
 .moon__button {
@@ -79,6 +94,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 .moon__button:hover {
@@ -91,6 +107,8 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
+    box-shadow: 4px 20px 28px -4px rgba(170, 0, 255, 0.5);
+
 }
 
 .sun_icon {
@@ -163,6 +181,8 @@ body {
     color: var(--dynamic-link-color);
     padding: 10px;
     text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
 }
 
 .article__desc__list__item__button:hover {
