@@ -136,7 +136,7 @@ export default {
   },
   mounted() {
     // set page title
-    document.title = 'Multiple Themes in Vue.js';
+    document.title = 'Eremey Ikashev';
 
     // set 'app-background' class to body tag
     let bodyElement = document.body;
