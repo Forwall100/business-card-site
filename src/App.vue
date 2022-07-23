@@ -137,7 +137,7 @@ export default {
   name: 'app',
   data() {
     return {
-      lightMode: false,
+      lightMode: true,
     }
   },
   mounted() {
