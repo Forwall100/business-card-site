@@ -1,12 +1,6 @@
 <template>
   <header class="header">
     <a href="#" class="header__logo">Eremey Ikashev</a>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item"><a href="#" class="header__link">Portfolio</a></li>
-        <li class="header__item"><a href="https://t.me/namename5" class="header__link">Contact me</a></li>
-      </ul>
-    </nav>
     <button v-if="lightMode" @click="lightMode = !lightMode" class="sun__button">
       <svg xmlns="http://www.w3.org/2000/svg" class="sun_icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"
         stroke-width="2">
