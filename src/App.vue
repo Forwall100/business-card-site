@@ -26,7 +26,7 @@
       <div class="main">
         <div class="main__text">
           <h2 class="main__title">Eremey Ikashev</h2>
-          <p class="main__desc">3D artist, Designer, Developer</p>
+          <p class="main__desc">Motion/Graphic designer, Developer</p>
         </div>
         <div class="main__image">
           <img class="main__img" src="./assets/images/avatar.png" alt="avatar">
