@@ -151,11 +151,11 @@ export default {
     let htmlElement = document.documentElement;
     let theme = localStorage.getItem("theme");
 
-    if (theme === 'dark') {
-      htmlElement.setAttribute('theme', 'dark')
+    if (theme === 'light') {
+      htmlElement.setAttribute('theme', 'light')
       this.lightMode = true
     } else {
-      htmlElement.setAttribute('theme', 'light');
+      htmlElement.setAttribute('theme', 'dark');
       this.lightMode = false
     }
   },
